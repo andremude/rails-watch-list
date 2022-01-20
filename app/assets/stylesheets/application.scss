@@ -1,0 +1,57 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+.banner {
+  background-position: 50% 70%;
+  margin: 0px;
+  background-size: cover;
+  padding: 200px 0px;
+}
+
+.banner h1 {
+  color: white;
+  margin: 50px;
+}
+
+body {
+  margin: 0;
+}
+
+.cards {
+  margin: 20px auto;
+  background-color: #c4c4c4;
+  align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 900px;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card {
+  background-color: rgb(27, 27, 41);
+  margin: 10px;
+  padding: 20px;
+  height: 150px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+}
+
+.card a {
+  color: white;
+  font-weight: bold;
+}
